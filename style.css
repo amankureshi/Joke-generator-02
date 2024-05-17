@@ -68,3 +68,27 @@
           font-weight: 500;
       }
   }
+
+  .support a {
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      background-color: #1e2027;
+      color: #fff;
+      bottom: 40px;
+      right: 10px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 34px;
+      font-size: 22px;
+      border: none;
+      cursor: pointer;
+      border-radius: 2px;
+      transition: all 0.2s ease-in;
+  }
+
+
+  .support a i:hover {
+      transform: scale(1.1);
+      transition: 0.3s all;
+  }
